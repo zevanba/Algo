@@ -13,10 +13,10 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 header {
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -24,36 +24,26 @@ header h1 {
     color: #444;
 }
 
-.seccion {
-    margin-bottom: 30px;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-.seccion h2 {
-    color: #28a745;
-    border-bottom: 2px solid #28a745;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-}
-
-.texto {
-    border: 1px solid #ccc;
-    padding: 15px;
+nav ul li {
     margin-bottom: 10px;
+}
+
+.boton {
+    display: block;
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
 }
 
-.texto h3 {
-    margin-top: 0;
-    color: #555;
-}
-
-.texto p {
-    margin: 10px 0;
-    color: #666;
-}
-
-.texto small {
-    color: #999;
-    font-size: 0.9em;
+.boton:hover {
+    background-color: #218838;
 }
