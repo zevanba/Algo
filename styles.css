@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -24,6 +25,7 @@ header h1 {
     color: #444;
 }
 
+/* Estilos para los botones de navegación */
 nav ul {
     list-style: none;
     padding: 0;
@@ -46,4 +48,40 @@ nav ul li {
 
 .boton:hover {
     background-color: #218838;
+}
+
+/* Estilos para las secciones de textos */
+.seccion {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.seccion h2 {
+    color: #28a745;
+    border-bottom: 2px solid #28a745;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.texto {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.texto h3 {
+    margin-top: 0;
+    color: #555;
+}
+
+.texto p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.texto small {
+    color: #999;
+    font-size: 0.9em;
 }
