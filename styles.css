@@ -24,6 +24,17 @@ header h1 {
     color: #444;
 }
 
+.seccion {
+    margin-bottom: 30px;
+}
+
+.seccion h2 {
+    color: #28a745;
+    border-bottom: 2px solid #28a745;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
 .texto {
     border: 1px solid #ccc;
     padding: 15px;
