@@ -3,27 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publicar Textos Anónimos</title>
+    <title>Textos Manuales</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Publicar Textos Anónimos</h1>
+        <header>
+            <h1>Textos Publicados</h1>
+        </header>
 
-        <!-- Formulario para publicar textos -->
-        <form id="formulario">
-            <input type="text" id="asunto" placeholder="Asunto" required>
-            <textarea id="contenido" placeholder="Escribe tu texto aquí..." required></textarea>
-            <button type="submit">Publicar</button>
-        </form>
+        <!-- Sección de Textos -->
+        <section id="textos">
+            <!-- Texto 1 -->
+            <div class="texto">
+                <h3>Asunto del Texto 1</h3>
+                <p>Este es el contenido del primer texto. Puedes editarlo directamente en el código HTML.</p>
+                <small>Publicado por: Autor 1</small>
+            </div>
 
-        <!-- Apartado para ver los textos -->
-        <h2>Textos Publicados</h2>
-        <div id="textos-publicados">
-            <!-- Los textos se mostrarán aquí -->
-        </div>
+            <!-- Texto 2 -->
+            <div class="texto">
+                <h3>Asunto del Texto 2</h3>
+                <p>Este es el contenido del segundo texto. Puedes agregar tantos textos como desees.</p>
+                <small>Publicado por: Autor 2</small>
+            </div>
+
+            <!-- Texto 3 -->
+            <div class="texto">
+                <h3>Asunto del Texto 3</h3>
+                <p>Este es el contenido del tercer texto. Edítalo directamente en el código.</p>
+                <small>Publicado por: Autor 3</small>
+            </div>
+
+            <!-- Puedes agregar más textos aquí -->
+        </section>
     </div>
-
-    <script src="scripts.js"></script>
 </body>
 </html>
